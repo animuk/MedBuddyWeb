@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-medbuddyweb-dev-153946-authRole",
+            "UnauthRoleArn": "arn:aws:iam::077470366459:role/amplify-medbuddyweb-dev-153946-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::077470366459:role/amplify-medbuddyweb-dev-153946-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-medbuddyweb-dev-153946-deployment",
+            "UnauthRoleName": "amplify-medbuddyweb-dev-153946-unauthRole",
+            "StackName": "amplify-medbuddyweb-dev-153946",
+            "StackId": "arn:aws:cloudformation:us-east-1:077470366459:stack/amplify-medbuddyweb-dev-153946/b62ea960-d63a-11ea-99f6-0aac80a39b9b",
+            "AmplifyAppId": "d2ieazn57ak2m7"
+        }
+    }
+}
