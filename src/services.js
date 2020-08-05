@@ -14,3 +14,16 @@ weatherApp.service('weatherService', ['$resource', function($resource) {
     };
     
 }]);
+
+weatherApp.service('patientService', ['$resource', function($resource) {
+   
+    this.GetPatient = function() {
+        var patientAPI = $resource("https://d4i3z5rbvi.execute-api.us-east-1.amazonaws.com/default/patientservicefunc");
+
+        patientResult = patientAPI.get({ TableName: 'Patient_Data' });
+        console.log(patientResult);
+    
+        return patientResult
+    };
+    
+}]);

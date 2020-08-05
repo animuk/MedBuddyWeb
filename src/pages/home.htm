@@ -1,4 +1,4 @@
-<div class="row">
+<!-- <div class="row">
     <div class="col-md-6 col-md-offset-3">
         <h4>Forecast by City</h4>
         <form ng-submit="submit()">
@@ -9,3 +9,37 @@
         </form>
     </div>
 </div>
+
+<hr /> -->
+
+<div class="panel panel-default">
+<!-- Default panel contents -->
+<div class="panel-heading">Patient List</div>
+<div class="panel-body">
+    <p>These are the patients registered with the MedBuddy Application</p>
+</div>
+
+<!-- Table -->
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">UserID</th>
+            <th scope="col">UserName</th>
+            <th scope="col">Email</th>
+            <th scope="col">Contact</th>
+            <th scope="col">Caregiver</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr mdbTableCol ng-repeat="el in patientList.Items">
+            <th scope="row">{{el.userid}}</th>
+            <td>{{el.username}}</td>
+            <td>{{el.email}}</td>
+            <td>{{el.contact}}</td>
+            <td>{{el.caregiver}}</td>
+        </tr>
+        </tbody>
+</table>
+</div>
+
+
