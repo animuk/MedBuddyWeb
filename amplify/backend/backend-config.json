@@ -1,1 +1,11 @@
-{}
+{
+	"storage": {},
+	"function": {
+		"medbuddywebaa4d8005": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": []
+		}
+	}
+}
